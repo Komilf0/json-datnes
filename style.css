@@ -1,0 +1,276 @@
+body, html {
+    font-size: 20px;
+    height: 100%;
+    margin: 0;
+    font-family: 'Times New Roman';
+  }
+  .split-container {
+    display: flex;
+    height: 100%;
+  }
+  .left-side {
+    flex: 40%;
+    background-image: url(scientist.png);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #ffffff;
+
+  }
+  .right-side {
+    flex: 60%;
+    background-color: #ffffff;
+    padding: 20px;
+    color: #06376b;
+  }
+
+  .right-side h1 {
+    color: #278fdf;
+    margin-top: 100px;
+  }
+
+  .right-side hr {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .right-side h1, .right-side p {
+    margin-left: 40px;
+    margin-right: 30px;
+  }
+
+  .left-side h1 {
+    margin-top: 120px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .left-side p {
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .left-side hr {
+    margin-left: 150px;
+    margin-right: 150px;
+    border-top: 1px solid #ffffff;
+  }
+
+  #button2 {
+    background-color: #ffffff;
+    border: 1px solid;
+    padding: 9px 19px;
+    margin-left: 17px;
+    margin-top: 100px;
+    cursor: pointer;
+    color: #278fdf;
+    font-size: 16px;
+  }
+
+  #button1 {
+    background-color: #278fdf;
+    border: 1px solid;
+    border-color: #278fdf;
+    padding: 9px 19px;
+    margin-top: 50px;
+    margin-left: 40px;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 16px;
+  }
+
+  #login-button {
+    background-color: #278fdf;
+    border: none;
+    padding: 9px 19px;
+    margin-top: 10px;
+    margin-bottom: 18px;
+    margin-left: 40px;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 16px;
+  }
+
+  #button4 {
+    border: none;
+    background-color: #ffffff;
+    font-weight: bold;
+    color: #06376b;
+    margin-top: 50px;
+  }
+
+  .button.active {
+    background-color: #278fdf;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 9px 19px;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 16px;
+  }
+
+  .button {
+    background-color: #ffffff;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 9px 19px;
+    margin-left: 7px;
+    cursor: pointer;
+    color: #278fdf;
+    font-size: 16px;
+  }
+
+  #button1:hover {
+    background-color: #1267c3;
+  }
+
+  #button2:hover {
+    background-color: #e6f4ff;
+  }
+
+  #login-button:hover {
+    background-color: #1267c3;
+  }
+
+  #button4:hover {
+    color: #278fdf;
+  }
+  
+  .button:hover {
+    background-color: #e6f4ff;
+  }
+
+  .button.active:hover {
+    background-color: #1267c3;
+  }
+
+  #report-button {
+    position: fixed;
+    bottom: 30px;
+    right: 40px;
+    padding: 10px 17px;
+    background-color: #f77a7c;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+  }
+
+  #arrow {
+
+    margin-left: 40px;
+  }
+
+  .login-form {
+    background: white;
+    padding: 0px 40px 0px;
+    min-width: 320px;
+    max-width: 300px;
+    margin-top: 80px;
+    font-size: 14px;
+  }
+  .login-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #06376b;
+  }
+  .login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+  }
+
+  .link {
+    margin-left: 40px;
+    font-size: 14px;
+  }
+  .link a {
+    color: #278fdf;
+  }
+
+  .table-page p {
+    margin-left: 100px;
+    margin-right: 30px;
+    margin-bottom: 35px;
+  }
+  .table-page h1 {
+    color: #278fdf;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 30px;
+  }
+
+  hr {
+    border-top: 1px solid #ccc;
+  }
+
+  .table-page #button4 {
+    margin-left: 60px;
+  }
+
+  .search-bar-container {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  .search-input {
+    border: 2px solid;
+    border-color: #ccc;
+    outline: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    margin-left: 90px;
+    border-radius: 20px;
+    padding-left: 35px;
+    width: 25%;
+  }
+  .search-icon {
+    color: #ccc;
+    position: absolute;
+    margin-left: 103px;
+    margin-bottom: 3px;
+  }
+
+  .search-input::placeholder {
+    font-size: 14px;
+    color: #ccc;
+  }
+
+  .search-section hr {
+
+    border-top: 3px solid #278fdf;
+    width: 90%;
+    max-width: 496px;
+    margin-left: 100px;
+    margin-top: -35px;
+  }
+
+  table {
+    max-width: 85%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    border-collapse: collapse;
+  }
+
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+
+  td {
+    color: #041f3c;
+  }
+
+  th {
+    background-color: #041f3c;
+    color: #ffffff;
+    font-weight: lighter;
+  }

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pieslēgties</title>
+</head>
+<body>
+    <div class="split-container">
+        <div class="left-side">
+            <h1>Esi sveicināts ĶLUS</h1>
+            <hr>
+            <p>Tavas laboratorijas uzskaites sistēma</p>
+          <!-- Image side -->
+        </div>
+        <div class="right-side">
+            <a href="index.html">
+                <button id="button4">
+                    <img src="left-arrows.png" height="14px" style="padding-right: 5px; margin-left: 20px;">
+                    Atpakaļ uz sākumlapu
+                </button>
+            </a>
+            <h1>Pieslēgties</h1>
+            <p>Ķīmijas laboratorija uzskaites sistēmai</p>
+            <form class="login-form">
+                <label for="username">Lietotājvārds</label>
+                <input type="text" id="username" name="username" required placeholder="Ievadīt lietotājvārdu">
+                <div>
+                    <label for="password">Parole</label>
+                    <input type="password" id="password" name="password" required placeholder="Ievadīt parole">
+                </div>
+            </form>
+            <div>
+                <a href="dati.html">
+                <button id="login-button">Pieslēgties</button>
+                </a>
+            </div> 
+            <hr>
+            <div class="link">
+                <span>Neesi vēl reģistrēts?</span> <a href="#">Izveidot profilu</a>
+            </div>
+        </div>
+    </div>
+      <button id="report-button">Ziņot par kļūdu</button>
+      <script src="login.js"></script>
+</body>
+</html>

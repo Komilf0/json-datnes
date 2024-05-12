@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Publiskie dati</title>
+</head>
+<body>
+    <div class="table-page">
+        <a href="index.html">
+            <button id="button4">
+                <img src="left-arrows.png" height="15px" id="arrow" style="padding-right: 5px;">
+                Atpakaļ uz sākumlapu
+            </button>
+        </a>
+
+        <div class="search-section">
+            <h1>Publiskā datubāze</h1>
+            <p>Šajā datubāzē Tu vari apskatīt pieejamās vielas un aprīkojumu</p>
+            <hr>
+        </div>
+            <div class="search-bar-container">
+                <input type="text" class="search-input" placeholder="Search">
+                <img class="search-icon" src="searchIcon.png" height="14px">
+                <div class="buttons">
+                    <button class="button active" id="button5" data-type="both">Rādīt visu</button>
+                    <button class="button" id="button6" data-type="vielas">Rādīt vielas</button>
+                    <button class="button" id="button7" data-type="inventars">Rādīt aprīkojumu</button>
+                </div>
+            </div>
+            <hr>
+    </div>
+    
+
+    <div>
+        <table class="table">
+            <tr>
+              <th>ID</th>
+              <th>Nosaukums</th>
+              <th>Tips</th>
+              <th>Apakštips</th>
+              <th>Skaits</th>
+              <th>Daudzums</th>
+              <th>Komentāri</th>
+            </tr>
+          </table>
+    </div>
+    <button id="report-button">Ziņot par kļūdu</button>
+    <script src="dati.js"></script>
+</body>
+</html>
